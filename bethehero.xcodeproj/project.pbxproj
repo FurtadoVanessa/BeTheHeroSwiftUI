@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		82124AF624678F7400164BDD /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82124AF524678F7400164BDD /* CardView.swift */; };
+		823569FC2471E5CC00E13BD1 /* Incident.swift in Sources */ = {isa = PBXBuildFile; fileRef = 823569FB2471E5CC00E13BD1 /* Incident.swift */; };
+		8242F82E24774BDE007CCA68 /* Case.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8242F82D24774BDE007CCA68 /* Case.swift */; };
+		8242F8302477531E007CCA68 /* HttpService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8242F82F2477531E007CCA68 /* HttpService.swift */; };
 		824EC5EB2461EE6D006F0A63 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 824EC5EA2461EE6D006F0A63 /* AppDelegate.swift */; };
 		824EC5ED2461EE6D006F0A63 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 824EC5EC2461EE6D006F0A63 /* SceneDelegate.swift */; };
 		824EC5F02461EE6D006F0A63 /* bethehero.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 824EC5EE2461EE6D006F0A63 /* bethehero.xcdatamodeld */; };
@@ -36,6 +40,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		82124AF524678F7400164BDD /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		823569FB2471E5CC00E13BD1 /* Incident.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Incident.swift; sourceTree = "<group>"; };
+		8242F82D24774BDE007CCA68 /* Case.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Case.swift; sourceTree = "<group>"; };
+		8242F82F2477531E007CCA68 /* HttpService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HttpService.swift; sourceTree = "<group>"; };
 		824EC5E72461EE6D006F0A63 /* bethehero.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = bethehero.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		824EC5EA2461EE6D006F0A63 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		824EC5EC2461EE6D006F0A63 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -109,6 +117,10 @@
 				824EC5FB2461EE8C006F0A63 /* Info.plist */,
 				824EC5EE2461EE6D006F0A63 /* bethehero.xcdatamodeld */,
 				824EC5F52461EE8B006F0A63 /* Preview Content */,
+				82124AF524678F7400164BDD /* CardView.swift */,
+				823569FB2471E5CC00E13BD1 /* Incident.swift */,
+				8242F82D24774BDE007CCA68 /* Case.swift */,
+				8242F82F2477531E007CCA68 /* HttpService.swift */,
 			);
 			path = bethehero;
 			sourceTree = "<group>";
@@ -271,9 +283,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				824EC5EB2461EE6D006F0A63 /* AppDelegate.swift in Sources */,
+				823569FC2471E5CC00E13BD1 /* Incident.swift in Sources */,
+				8242F82E24774BDE007CCA68 /* Case.swift in Sources */,
 				824EC5F02461EE6D006F0A63 /* bethehero.xcdatamodeld in Sources */,
 				824EC5F22461EE6D006F0A63 /* ContentView.swift in Sources */,
+				8242F8302477531E007CCA68 /* HttpService.swift in Sources */,
 				824EC5ED2461EE6D006F0A63 /* SceneDelegate.swift in Sources */,
+				82124AF624678F7400164BDD /* CardView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
